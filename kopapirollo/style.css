@@ -1,0 +1,43 @@
+body{
+    background-color:teal;
+}
+
+.player-score, .computer-score{
+    background-color:rgb(100,150,150);
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 1em;
+}
+.score {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px
+}
+.choose button {
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(100,150,150);
+
+}
+.choose{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height:100px;
+}
+.winner{
+    position: absolute;
+    font-size: 50px;
+    left:42.5%;
+
+    
+}
